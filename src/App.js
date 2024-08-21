@@ -1,23 +1,19 @@
-import React, {useState} from 'react';
+import React, { useState } from "react";
 
-import './App.css';
+import "./App.css";
 
-import Header from './components/Header';
-import Services from './components/Services';
+import Header from "./components/Header";
+import Services from "./components/Services";
 
-import './styles/app.scss';
+import "./styles/app.scss";
 
-// import CarSpline from './components/CarSpline';
+// import CarSpline from './components/CarSpline'jj;
 function App() {
   return (
     <div className="App">
       <Header />
       <Services />
-     <div className='hero-wrapper'> 
-          {/* <CarSpline /> */}
-     </div>
-          
-  
+      <div className="hero-wrapper">{/* <CarSpline /> */}</div>
     </div>
   );
 }

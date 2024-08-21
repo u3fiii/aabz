@@ -56,7 +56,7 @@ function Services() {
 
       <div className='service plate'>
           <SalianehLottie />
-          <p className='service-text'>عوارض سالیانه </p>
+          <p className='service-text'>عوارض سالیانه و </p>
       </div>
 
       <div className='service plate'>
